@@ -1,3 +1,4 @@
+
 /******************************************************************************
  * WATS1010: Introduction to Web Development
  * Embedded Media Assignment
@@ -5,6 +6,130 @@
  * Site Styles
  *****************************************************************************/
 
- html {
-     color: green;
+html {
+  padding: 0;
+	background-color: lightblue;
  }
+body {
+	overflow-x: hidden;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+header {
+  min-height: 300px;
+  background-image: url('../img/official_header.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+header h1 {
+	margin: 10px;
+	text-shadow: 0px 2px 3px #555;
+}
+header p {
+	margin: 10px;
+	font-weight: bold;
+	text-shadow: 0px 2px 3px #555;
+}
+
+/***** begin main-nav  *****/
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(22, 170, 219);
+	border: solid black 1px;
+}
+nav ul li {
+	float: left;
+}
+nav li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: rgb(83, 205, 253);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/***** end main-nav  *****/
+
+/***** begin social links  *****/
+#social {
+  background: rgba(252, 252, 252,.7);
+  border-bottom-left-radius: 2em;
+  position: fixed;
+  padding: 20px;
+  top: 30px;
+  right: 0;
+  width: 25px;
+  transition: 1s width;
+}
+
+#social ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#social:hover {
+  width: 60px;
+}
+#social li {
+  margin: 0;
+  padding: 0;
+}
+
+/***** end social-links  *****/
+
+/***** begin watch  *****/
+#watch {
+  margin: 0;
+  padding: 0;
+  line-height: 3rem;
+}
+.download-button {
+  -webkit-border-radius: 23;
+  -moz-border-radius: 23;
+  border-radius: 23px;
+  color: #ffffff;
+  font-size: 15px;
+  background: rgb(22, 170, 219);
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.download-button:hover {
+  background: rgb(83, 205, 253);
+  text-decoration: none;
+}
+
+/***** end watch  *****/
+
+
+/***** begin about  *****/
+
+#about p {
+  margin-bottom: 10px;
+}
+
+
+/***** about lead paragraph style  *****/
+p.lead {
+	font-size: 125%;
+}
+
+/****** end of about lead paragraph style  *****/
+.table_people img {
+	width: 200px;
+}
+
+.weybec-people img {
+  width: 200px;
+}
+/***** end about  *****/
+ 
