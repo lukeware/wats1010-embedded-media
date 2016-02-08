@@ -21,14 +21,14 @@ header {
   background-position: center center;
   background-size: cover;
 }
-header h1 {
+h1 {
 	margin: 10px;
-	text-shadow: 0px 2px 3px #555;
+	text-shadow: 0 2px 3px #555;
 }
 header p {
 	margin: 10px;
 	font-weight: bold;
-	text-shadow: 0px 2px 3px #555;
+	text-shadow: 0 2px 3px #555;
 }
 
 /***** begin main-nav  *****/
@@ -62,7 +62,8 @@ nav li a:hover {
 
 /***** begin social links  *****/
 #social {
-  background: rgba(252, 252, 252,.7);
+  background: rgb(252, 252, 252);
+	background: rgba(252, 252, 252,.7);
   border-bottom-left-radius: 2em;
   position: fixed;
   padding: 20px;
@@ -119,7 +120,7 @@ nav li a:hover {
 
 
 /***** about lead paragraph style  *****/
-p.lead {
+.lead {
 	font-size: 125%;
 }
 
